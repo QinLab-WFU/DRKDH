@@ -10,8 +10,9 @@ Source code for TOMM 2026 paper “Deep Relational Knowledge Distillation Hashin
 - MIRFLICKR-25K: https://press.liacs.nl/mirflickr/
 
 ### Start
-> cd DRKDH_STAGE1
-> python train.py
-> python save_embedings.py
-> cd ../DRKDH_STAGE2
-> python train.py
+```bash
+cd DRKDH_STAGE1
+python train.py
+python save_embeddings.py
+cd ../DRKDH_STAGE2
+python train.py
